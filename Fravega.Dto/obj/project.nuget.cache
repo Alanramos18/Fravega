@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "TDTib1eK4ZPiFxUQExG4b3Xwq9zzb+89KzO8XOHBveHn6gcAdI8TkkPfwWdfnUXaSVaCqRD8SKRKe7OHMAty+Q==",
+  "success": true,
+  "projectFilePath": "H:\\fravega\\Fravega\\Fravega.Dto\\Fravega.Dto.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alan\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Alan\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,9 @@
+H:\fravega\Fravega\Fravega.Dto\bin\Debug\netstandard2.0\Fravega.Dto.deps.json
+H:\fravega\Fravega\Fravega.Dto\bin\Debug\netstandard2.0\Fravega.Dto.dll
+H:\fravega\Fravega\Fravega.Dto\bin\Debug\netstandard2.0\Fravega.Dto.pdb
+H:\fravega\Fravega\Fravega.Dto\obj\Debug\netstandard2.0\Fravega.Dto.csprojAssemblyReference.cache
+H:\fravega\Fravega\Fravega.Dto\obj\Debug\netstandard2.0\Fravega.Dto.AssemblyInfoInputs.cache
+H:\fravega\Fravega\Fravega.Dto\obj\Debug\netstandard2.0\Fravega.Dto.AssemblyInfo.cs
+H:\fravega\Fravega\Fravega.Dto\obj\Debug\netstandard2.0\Fravega.Dto.csproj.CoreCompileInputs.cache
+H:\fravega\Fravega\Fravega.Dto\obj\Debug\netstandard2.0\Fravega.Dto.dll
+H:\fravega\Fravega\Fravega.Dto\obj\Debug\netstandard2.0\Fravega.Dto.pdb

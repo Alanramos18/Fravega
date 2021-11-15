@@ -1,0 +1,14 @@
+H:\fravega\Fravega\Business\bin\Debug\netcoreapp3.1\Fravega.Business.deps.json
+H:\fravega\Fravega\Business\bin\Debug\netcoreapp3.1\Fravega.Business.dll
+H:\fravega\Fravega\Business\bin\Debug\netcoreapp3.1\Fravega.Business.pdb
+H:\fravega\Fravega\Business\bin\Debug\netcoreapp3.1\Fravega.Data.dll
+H:\fravega\Fravega\Business\bin\Debug\netcoreapp3.1\Fravega.Dto.dll
+H:\fravega\Fravega\Business\bin\Debug\netcoreapp3.1\Fravega.Data.pdb
+H:\fravega\Fravega\Business\bin\Debug\netcoreapp3.1\Fravega.Dto.pdb
+H:\fravega\Fravega\Business\obj\Debug\netcoreapp3.1\Fravega.Business.csprojAssemblyReference.cache
+H:\fravega\Fravega\Business\obj\Debug\netcoreapp3.1\Fravega.Business.AssemblyInfoInputs.cache
+H:\fravega\Fravega\Business\obj\Debug\netcoreapp3.1\Fravega.Business.AssemblyInfo.cs
+H:\fravega\Fravega\Business\obj\Debug\netcoreapp3.1\Fravega.Business.csproj.CoreCompileInputs.cache
+H:\fravega\Fravega\Business\obj\Debug\netcoreapp3.1\Fravega.Business.csproj.CopyComplete
+H:\fravega\Fravega\Business\obj\Debug\netcoreapp3.1\Fravega.Business.dll
+H:\fravega\Fravega\Business\obj\Debug\netcoreapp3.1\Fravega.Business.pdb

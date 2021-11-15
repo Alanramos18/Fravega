@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Fravega.Web</name>
+    </assembly>
+    <members>
+        <member name="M:Fravega.Web.Controllers.PromocionesController.GetListAsync(System.Threading.CancellationToken)">
+            <summary>
+                Get all the promotions available
+            </summary>
+            <param name="cancellationToken">Cancellation Transaction Token</param>
+            <returns>A list of promotions</returns>
+            <response code="200">Ok.</response>
+            <response code="404">Not Found.</response>
+        </member>
+        <member name="M:Fravega.Web.Controllers.PromocionesController.GetAsync(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+                Get a promotions by GUID
+            </summary>
+            <param name="id">Id of the promotion</param>
+            <param name="cancellationToken">Cancellation Transaction Token</param>
+            <returns>A list of promotions</returns>
+            <response code="200">Ok.</response>
+            <response code="404">Not Found.</response>
+        </member>
+        <member name="M:Fravega.Web.Controllers.PromocionesController.GetActivePromotionsAsync(System.Nullable{System.DateTime},System.Threading.CancellationToken)">
+            <summary>
+                Get all active promotions available by date.
+                If no date is input then all active promotions will be returned.
+            </summary>
+            <param name="date">Date for active promotions</param>
+            <param name="cancellationToken">Cancellation Transaction Token</param>
+            <returns>A list of promotions</returns>
+            <response code="200">Ok.</response>
+            <response code="404">Not Found.</response>
+        </member>
+        <member name="M:Fravega.Web.Controllers.PromocionesController.GetSalePromotionAsync(Fravega.Dto.GetSalePromotionDto,System.Threading.CancellationToken)">
+            <summary>
+                Get all the promotions for a specific sale
+            </summary>
+            <param name="promotionDto"></param>
+            <param name="cancellationToken">Cancellation Transaction Token</param>
+            <returns>A list of promotions</returns>
+            <response code="200">Ok.</response>
+            <response code="404">Not Found.</response>
+        </member>
+        <member name="M:Fravega.Web.Controllers.PromocionesController.CreateAsync(Fravega.Dto.PromotionDto,System.Threading.CancellationToken)">
+            <summary>
+                Create a promotion
+            </summary>
+            <param name="promotion">Dto for creating a promotion</param>
+            <param name="cancellationToken">Cancellation Transaction Token</param>
+            <returns>A list of promotions</returns>
+            <response code="200">Ok.</response>
+            <response code="400">Bad request.</response>
+        </member>
+        <member name="M:Fravega.Web.Controllers.PromocionesController.UpdateAsync(System.Guid,Fravega.Dto.PromotionDto,System.Threading.CancellationToken)">
+            <summary>
+                Update a promotion filter by guid
+            </summary>
+            <param name="id">Id of promotion to update</param>
+            <param name="promotion">Dto of updated promotion</param>
+            <param name="cancellationToken">Cancellation Transaction Token</param>
+            <returns>A list of promotions</returns>
+            <response code="200">Ok.</response>
+            <response code="400">Bad request.</response>
+            <response code="404">Not Found.</response>
+        </member>
+        <member name="M:Fravega.Web.Controllers.PromocionesController.DeleteAsync(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Get all the promotions available
+            </summary>
+            <param name="id">Id of promotion</param>
+            <param name="cancellationToken">Cancellation Transaction Token</param>
+            <returns>A list of promotions</returns>
+            <response code="200">Ok.</response>
+            <response code="404">Not Found.</response>
+        </member>
+        <member name="M:Fravega.Web.Controllers.PromocionesController.UpdateValidityAsync(System.Guid,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Threading.CancellationToken)">
+            <summary>
+                Update a promotion active dates
+            </summary>
+            <param name="id">Id of promotion</param>
+            <param name="start">Start date of promotion</param>
+            <param name="end">End date of promotion</param>
+            <param name="cancellationToken">Cancellation Transaction Token</param>
+            <returns>A list of promotions</returns>
+            <response code="200">Ok.</response>
+            <response code="404">Not Found.</response>
+        </member>
+        <member name="M:Fravega.Web.Validations.PromotionValidation.ValidatePayments(System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+                Validate the payment data
+            </summary>
+            <param name="payments"></param>
+        </member>
+        <member name="M:Fravega.Web.Validations.PromotionValidation.ValidateBank(System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+                Validate the bank data
+            </summary>
+            <param name="banks"></param>
+        </member>
+        <member name="M:Fravega.Web.Validations.PromotionValidation.ValidateCategory(System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+                Validate the categories data
+            </summary>
+            <param name="categories"></param>
+        </member>
+    </members>
+</doc>
