@@ -1,0 +1,261 @@
+{
+	"info": {
+		"_postman_id": "01bd97fb-94b8-4c30-a15e-62ac99f3b99e",
+		"name": "Fravega",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Crear una promocion",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"paymentMethods\": [\r\n    \"EFECTIVO\"\r\n  ],\r\n  \"banks\": [\r\n    \"Galicia\",\r\n    \"BBVA\"\r\n  ],\r\n  \"categories\": [\r\n    \"Audio\"\r\n  ],\r\n  \"paymentsNumber\": 6,\r\n  \"paymentInterestPorcentage\": 40,\r\n  \"discountPorcentage\": 0,\r\n  \"startDate\": \"2020-11-14\",\r\n  \"endDate\": \"2022-11-14\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/Fravega/api/promociones/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Fravega",
+						"api",
+						"promociones",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ver listado de promociones",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"paymentMethods\": [\r\n    \"EFECTIVO\"\r\n  ],\r\n  \"banks\": [\r\n    \"Galicia\",\r\n    \"BBVA\"\r\n  ],\r\n  \"categories\": [\r\n    \"Audio\"\r\n  ],\r\n  \"paymentsNumber\": 6,\r\n  \"paymentInterestPorcentage\": 40,\r\n  \"discountPorcentage\": 0,\r\n  \"startDate\": \"2020-11-14\",\r\n  \"endDate\": \"2022-11-14\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/Fravega/api/promociones/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Fravega",
+						"api",
+						"promociones",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ver una promocion",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"paymentMethods\": [\r\n    \"EFECTIVO\"\r\n  ],\r\n  \"banks\": [\r\n    \"Galicia\",\r\n    \"BBVA\"\r\n  ],\r\n  \"categories\": [\r\n    \"Audio\"\r\n  ],\r\n  \"paymentsNumber\": 6,\r\n  \"paymentInterestPorcentage\": 40,\r\n  \"discountPorcentage\": 0,\r\n  \"startDate\": \"2020-11-14\",\r\n  \"endDate\": \"2022-11-14\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/Fravega/api/promociones/054e1861-321c-48e9-a572-92ee485794ef",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Fravega",
+						"api",
+						"promociones",
+						"054e1861-321c-48e9-a572-92ee485794ef"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Eliminar una promocion",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"paymentMethods\": [\r\n    \"EFECTIVO\"\r\n  ],\r\n  \"banks\": [\r\n    \"Galicia\",\r\n    \"BBVA\"\r\n  ],\r\n  \"categories\": [\r\n    \"Audio\"\r\n  ],\r\n  \"paymentsNumber\": 6,\r\n  \"paymentInterestPorcentage\": 40,\r\n  \"discountPorcentage\": 0,\r\n  \"startDate\": \"2020-11-14\",\r\n  \"endDate\": \"2022-11-14\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/Fravega/api/promociones/delete",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Fravega",
+						"api",
+						"promociones",
+						"delete"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Modificar una promocion",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"paymentMethods\": [\r\n    \"EFECTIVO\"\r\n  ],\r\n  \"banks\": [\r\n    \"Galicia\",\r\n    \"BBVA\"\r\n  ],\r\n  \"categories\": [\r\n    \"Audio\"\r\n  ],\r\n  \"paymentsNumber\": 6,\r\n  \"paymentInterestPorcentage\": 40,\r\n  \"discountPorcentage\": 0,\r\n  \"startDate\": \"2020-11-14\",\r\n  \"endDate\": \"2022-11-14\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/Fravega/api/promociones/update?id=ccb89dc5-b9fb-4392-b675-8e0d59920d2d",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Fravega",
+						"api",
+						"promociones",
+						"update"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "ccb89dc5-b9fb-4392-b675-8e0d59920d2d"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ver listado de promociones vigentes con y sin fecha",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"paymentMethods\": [\r\n    \"EFECTIVO\"\r\n  ],\r\n  \"banks\": [\r\n    \"Galicia\",\r\n    \"BBVA\"\r\n  ],\r\n  \"categories\": [\r\n    \"Audio\"\r\n  ],\r\n  \"paymentsNumber\": 6,\r\n  \"paymentInterestPorcentage\": 40,\r\n  \"discountPorcentage\": 0,\r\n  \"startDate\": \"2020-11-14\",\r\n  \"endDate\": \"2022-11-14\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/Fravega/api/promociones/active",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Fravega",
+						"api",
+						"promociones",
+						"active"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Modificar vigencia de promocion",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/Fravega/api/promociones/updateValidity",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Fravega",
+						"api",
+						"promociones",
+						"updateValidity"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ver listado de promociones vigentes para una venta",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/Fravega/api/promociones/GetSalePromotion",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Fravega",
+						"api",
+						"promociones",
+						"GetSalePromotion"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
